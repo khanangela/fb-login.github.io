@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    background: #f0f2f5;
+    padding: 145px;
+}
+/* .text {
+    width: 60%;
+} */
+.text p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    margin-top: -18px;
+}
+
+.logo {
+    margin-left: -28px;
+}
+
+.formbx {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 4px #b5adad;
+    border-radius: 11px;
+    width: 30vw;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 54px;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formbx input::placeholder {
+    color: #858484;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 100%;
+    font-size: 22px;
+    border: 0px;
+    font-weight: 600;
+    background-color: #1877f2!important;
+    font-family: sans-serif;
+}
+div#forgotpass {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#forgotpass a {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #1877f2;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn-green {
+    background-color: #0aba0a;
+    border: 0p;
+    border: 0px;
+    padding: 10px 16px;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    font-family: sans-serif;
+}
+.btn-green:hover{
+    background-color: #09af09;
+}
+
+span#bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p.sm-link {
+    font-size: 15px;
+    /* text-align: center; */
+    margin-left: 90px;
+}
+.btn-green a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* responsiveness */
+@media(max-width:998px){
+.formbx {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 6px #b5adad;
+    border-radius: 11px;
+    width: 70vw;
+    margin-top: 15px;
+}
+.main {
+    position: relative;
+    background: #f0f2f5;
+    padding: 37px;
+}
+.logo {
+    /* margin: auto; */
+    margin-left: 78px;
+    /* display: block; */
+}
+.text p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: -19px;
+}
+}
+
+
+
+.fb-header-base{
+	width:100%;
+	height:90px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	background:#3d5b99;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	
+}
+#img1 {
+    left: 167px;
+    height: 50px;
+    width: 100px;
+    top: 11px;
+}
+div#img1 h1 {
+    font-size: 53px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+.submit1 {
+    left: 1130px;
+    top: 35px;
+    background: #5b7bc0;
+    color: white;
+    position: absolute;
+    z-index: 20;
+	font-size: 14px;
+    height: 26px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px #2f3d5c;
+    border-radius: 2px;
+    border: none;
+    width: 59px;
+    line-height: 15px;
+    cursor: pointer;
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:645px;
+	
+
+}
+#intro1{
+	left:167px;
+	top:20px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+	height:75px;
+	width:550px;
+}
+#intro2{
+	left:750px;
+	top:20px;
+	font-family:verdana;
+	font-size:30px;
+	color:#000;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+#img2{
+	top: 127px;
+    left: 14px;
+    width: 537px;
+    height: 195px;
+}
+#intro3{
+	left:750px;
+	top:70px;
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	height:50px;
+	width:300px;
+}
+#form3{
+	top:120px;
+	left:750px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+	width:450px;
+	height:495px;
+	
+}
+#fnamebox{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#lnamebox{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#dob{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#mailbox{
+	width:408px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#mailbox1{
+	width:408px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+
+#mailboxes{
+	width:408px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#r-b{
+	font-size:12px;
+	height:15px;
+	width:15px;
+}
+
+.button2{
+	width:174px;
+	height:40px;
+	left:750px;
+	top:625px;
+	background:green;
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+	
+}
+#intro4{
+	font-family:verdana;
+	font-size:12px;
+	color:gray;
+	
+}
+#intro5{
+	font-family:verdana;
+	font-size:14px;
+	color:gray;
+	
+}
+.fb-body-footer{
+	width:100%;
+	position:absolute;
+	left:0px;
+	height:80px;
+	background:white;
+	top:700px;
+	
+}
+#fb-body-footer-base{
+	width:900px;
+	top:15px;
+	left:200px;
+	color:blue;
+	height:60px;
+}
